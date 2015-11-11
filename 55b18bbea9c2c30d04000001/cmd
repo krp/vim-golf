@@ -1,0 +1,16 @@
+Attempts:
+
+1: Score 28
+5jYp2Ec$7 11<Esc>GONew text.<CR><Esc>ZZ
+
+2: Score 26
+5jYpf6<C-A>w11<C-A>GONew text.<CR><Esc>ZZ
+
+3: Score 24
+6GYp<C-A>w11<C-A>GONew text.<CR><Esc>ZZ
+
+4: Score 23 (Use completion)
+6GYp<C-A>$11<C-A>GONew te<C-N>.<CR><Esc>ZZ
+
+5: Score 22 (lowest)
+#Yp<C-A>w11.GONew t<C-N><C-N>.<CR><Esc>ZZ
