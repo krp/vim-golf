@@ -9,5 +9,8 @@ qq3jYjVpq@q@@ZZ
 3: Score 14 (Repeat q)
 qq3jYjVpq2@qZZ
 
-4: Score 13 (Replace)
+4: Score 13 - Final (Ex commands)
 :g/V/t.|+d<CR>ZZ
+
+Explanation:
+https://stackoverflow.com/questions/6679388/challenge-simple-text-editing-with-vim-at-vimgolf-how-does-the-1-solution-wo
