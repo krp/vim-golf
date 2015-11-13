@@ -1,0 +1,18 @@
+Attempts:
+
+1: Score 17 - Manually repeat macro
+qqi(<Esc>Ea)<Esc>wq@q@@ZZ
+
+2: Score 16: - Repeat macro twice. Two different ways of wrapping w/ parens
+qqi(<Esc>Ea)<Esc>wq2@qZZ
+qqcw(<C-R>")<Esc>wq2@qZZ
+
+3: Score 16 - Try substitution with & as match
+:%s/\S*/(&)/g<CR>ZZ
+
+4: Score 15 - Deleted word is saved
+qqcw()<Esc>PWq2@qZZ
+
+5: Score 14 - Insert contents of register literally. See :help i_CTRL-R_CTRL-O.
+cw(<C-R><C-O>")<Esc>w.w.ZZ
+
