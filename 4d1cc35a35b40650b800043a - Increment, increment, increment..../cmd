@@ -1,0 +1,7 @@
+Attempts:
+
+1: Score 12 - Yank/paste line, increment, then rinse and repeat.
+qqYp<C-A>q23@qZZ
+
+2: Score 10 - Solution by @udioica. New {Visual}g feature in 7.4.754. See :help v_g_CTRL-A.
+Y24pVGg<C-A>ZZ
