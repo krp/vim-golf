@@ -1,0 +1,13 @@
+Attempts:
+
+1: Score 16 - Append quotes, repeat down. Visual insert and repeat back up.
+A"<Esc>j.j.b<C-V>kkI"<Esc>ZZ
+
+2: Score 14 - Select end of line, insert before words. Reselect to EOL, append quotes.
+$<C-V>GI"<Esc>gv$A"<Esc>ZZ
+
+3: Score 12 - Append just after visual select, then repeat at EOL.
+ta<C-V>jjA"<Esc>$.ZZ
+
+4: Score 10 - Final. Block select, back one char, append, then repeat at EOL.
+<C-V>GhA"<Esc>$.ZZ
