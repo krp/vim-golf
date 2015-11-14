@@ -1,0 +1,59 @@
+Attempts:
+
+1: Score 36
+<C-V>GI<Tab>"<Esc>gv$A",<Esc>0cwlipsum = <Del>[<Esc>GA<BS><BS>]<Esc>ZZ
+
+<C-V>GI<Tab>"<Esc>gv$A",<Esc>cwlipsum = [<Del><Esc>G$A<BS><BS>]<Esc>ZZ
+
+<C-V>GI<Tab>"<Esc>gv$kA",<Esc>ilipsum = <Del><Del>[<Esc>GA]<Esc>ZZ
+
+<C-V>6$A",<Esc>ii<C-N> = [<Esc><C-V>GI<Tab>"<Esc>xrl}A]<Esc>ZZ
+36: ii<C-N> = [<Esc><C-V>GI<Tab>"<Esc>xrl:1,6s/$/",/g<CR>}A]<Esc>ZZ
+
+
+
+x<C-V>GI"<Esc>gv$kA",<Esc>ilipsum = [<Esc>}A]<Esc>ZZ - 32 but failed match
+
+
+3: Score 33
+x<C-V>GI<Tab>"<Esc>gv$A",<Esc>xilipsum = [<Esc>}xr]ZZ
+
+
+4: Score 34 (dangit)
+x<C-V>GI<Tab>"<Esc>gv$kA",<Esc>xilipsum = [<Esc>}A]<Esc>ZZ
+x<C-V>GI<Tab>"<Esc>gv$kA",<Esc>ii<C-N> = <Del>[<Esc>0il<Esc>}A]<Esc>ZZ
+<C-V>}k$A",<Esc>x<C-V>GI<Tab>"<Esc>xilipsum = [<Esc>}A]<Esc>ZZ
+
+
+5: Score 30 (final. slight variant on udioica)
+ii<C-N> = [<Esc><C-V>GI<Tab>"<Esc>xrl<C-V>G$A",<Esc>}xr]ZZ
+ii<C-N> = [<Esc><C-V>GI<Tab>"<Esc>xrlgv$A",<Esc>}xr]ZZ
+
+ilipsum = [<Esc><C-V>GI<Tab>"<Esc>gv$kA",<Esc>0xx}A]<Esc>ZZ
+
+
+31: ii<C-N> = [<Esc><C-V>GI<Tab>"<Esc>xrlgv$kA",<Esc>}A]<Esc>ZZ
+x<C-V>GI<Tab>"<Esc>gv$A",<Esc>si<C-N> = [<Esc>Il<Esc>}xr]ZZ
+
+32: x<C-V>GI<Tab>"<Esc>gv$kA",<Esc>si<C-N> = [<Esc>Il<Esc>}A]<Esc>ZZ
+32: x<C-V>GI<Tab>"<Esc>gv$A",<Esc>ii<C-N> = [<Del><Esc>Il<Esc>}xr]ZZ
+32: ii<C-N> = [<Esc><C-V>G$kA",<Esc>0<C-V>GI<Tab>"<Esc>xrl}A]<Esc>ZZ
+
+
+34: ilipsum = [<Esc><C-V>G$kA",<Esc>j0<C-V>GI<Tab>"<Esc>}A]<Esc>ZZ
+
+
+31: ii<C-N> = [<Esc><C-V>GI<Tab>"<Esc>xrlgv$kA",<Esc>}A]<Esc>ZZ
+31: ii<C-N> = [<Esc><C-V>GI<Tab>"<Esc>gv$A",<Esc>0xrl}xr]ZZ
+31: ii<C-N> = [<Esc><C-V>GI<Tab>"<Esc>xrl<C-V>}k$A",<Esc>}A]<Esc>ZZ
+
+32: x<C-V>GI<Tab>"<Esc>gv$A",<Esc>xii<C-N> = [<Esc>Il<Esc>}xr]ZZ
+
+
+31: <C-V>GI<Tab>"<Esc>gv$A",<Esc>xsi<C-N> = [<Esc>Il<Esc>}xr]ZZ
+31: x<C-V>GI<Tab>"<Esc>gv$A",<Esc>si<C-N> = [<Esc>Il<Esc>}xr]ZZ
+31: <C-V>GI<Tab>"<Esc>xsi<C-N> = [<Esc>gv$A",<Esc>il<Esc>}xr]ZZ
+
+
+30: Final
+I<C-N><C-N> = [<Esc><C-V>GI<Tab>"<Esc>xrlgv$A",<Esc>}xr]ZZ
