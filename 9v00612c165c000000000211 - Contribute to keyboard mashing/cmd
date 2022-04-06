@@ -1,0 +1,8 @@
+Attempts:
+
+1: Score 19 - down 5 lines, insert line, on, Esc, down a line, fe, one char right, replace k with n, Append EOL, newline od
+5joon<Esc>jfelrnAf<CR>od<Esc>ZZ
+
+2: Attempt 2 - Score 20
+GOod<Esc>kfelrnAf<Esc>Oon<Esc>ZZ
+
