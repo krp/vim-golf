@@ -1,4 +1,18 @@
-Attempt 1: Just delete all remaining lines after 10th line and re-paste them.
+Attempt 1 - Score 16: Just delete all remaining lines after 10th line and re-paste them.
 Tried macros to no avail.
 
 10jdGo<Esc>VggYG9pZZ
+
+
+Attempt 2 - Score 13 - Use of macros
+qa9jo<Esc>jq9@aZZ
+
+
+Attempt 3 - Score 12 - Uses H to go to top of screen
+
+11jdGDyH9PZZ
+
+
+Attempt 4 - Score 11 (current minimum) - Delete 89 lines, go to bottom of file, delete another line, yank to top of file, paste 9x, quit
+
+89DGDyH9PZZ
